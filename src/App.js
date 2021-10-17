@@ -4,6 +4,7 @@ import './App.css';
 import Header from './pages/Home/Header/Header';
 import Home from './pages/Home/Home/Home';
 import Login from './pages/Login/Login';
+import MedicneDetails from './pages/MedicineDetails/MedicneDetails';
 import NotFound from './pages/NotFound/NotFound'
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login></Login>
+          </Route>
+          <Route path="/home/:detailId">
+            <MedicneDetails></MedicneDetails>
           </Route>  
 
           <Route path="*">

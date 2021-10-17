@@ -8,7 +8,7 @@ const Login = () => {
     const [password, setPassword] = useState("");
     const [isLogin, setIsLogin] = useState(false);
 
-    const {createUser, loginUser} = useFirebse();
+    const {createUser, loginUser, signInwithGoogle} = useFirebse();
 
     const toggleLogin = e => {
         setIsLogin(e.target.checked);
@@ -22,6 +22,9 @@ const Login = () => {
             loginUser(email, password)
         }
         e.preventDefault();
+    }
+    const googleSignIn = () => {
+        signInwithGoogle();
     }
 
     const getEmail = e => {
@@ -52,7 +55,7 @@ const Login = () => {
                 <Button onClick={signIn} variant="primary" type="submit">
                     {isLogin? 'Login': 'Register'}
                 </Button>
-                <Button className="mx-3"  variant="primary" type="submit">
+                <Button onClick={googleSignIn} className="mx-3"  variant="primary" type="submit">
                     Google signIn
                 </Button>
             </Form>
