@@ -1,0 +1,16 @@
+.medicine{
+    border-radius: 10px;
+    background-color: white;
+}
+.medicine:hover{
+    box-shadow:0 0 10px rgb(168, 165, 165);
+    transform: scale(1.01);
+}
+.text a {
+    text-decoration: none;
+    color: red;
+}
+.price{
+    color: rgb(235, 35, 0);
+    font-weight: 600;
+}

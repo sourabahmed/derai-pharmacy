@@ -1,0 +1,86 @@
+[
+    {
+        "id":1,
+        "name":"Seclo 20",
+        "company":"Square Pharmaceuticals Ltd.",
+        "img":"https://i.ibb.co/s5pzcy8/whatsapp-image-2021-08-28-at-111255-am-removebg-preview-1630128526048.png",
+        "price": "5.70"
+    },
+    {
+        "id":2,
+        "name":"Febus 40",
+        "company":"Aci Limited",
+        "img":"https://i.ibb.co/8m5mXfm/untitled-6-1631418761757.png",
+        "price": "11.44"
+    },
+    {
+        "id":3,
+        "name":"Adegra 100",
+        "company":"Aci Limited",
+        "img":"https://i.ibb.co/bbznKfs/untitled-1-1632982965494.png",
+        "price": "47.64"
+    },
+    {
+        "id":4,
+        "name":"Sergel 20",
+        "company":"Healthcare Pharmaceuticals.",
+        "img":"https://i.ibb.co/fpXGNGD/sergel-20-mg-1631528299689.png",
+        "price": "6.65"
+    },
+    {
+        "id":5,
+        "name":"Napa Extra",
+        "company":"Beximco Pharmaceuticals Ltd.",
+        "img":"https://i.ibb.co/vXyy1DR/napa-extra-1630001325835-removebg-preview-1630562777966.png",
+        "price": "2.38"
+    },
+    {
+        "id":6,
+        "name":"Fluclox 500",
+        "company":"Aci Limited",
+        "img":"https://i.ibb.co/n6z5Nby/fluclox-500-1631442367478.png",
+        "price": "10.07"
+    },
+    {
+        "id":7,
+        "name":"Brodil 400",
+        "company":"Aci Limited",
+        "img":"https://i.ibb.co/R9CpQ5z/brodil-4-1631604326642.png",
+        "price": "0.44"
+    },
+    {
+        "id":8,
+        "name":"Azyth 500",
+        "company":"Sandoz Bangladesh Limited.",
+        "img":"https://i.ibb.co/kqfxpGB/azyth-500-1629804200698.png",
+        "price": "52.73"
+    },
+    {
+        "id":9,
+        "name":"Anaflex 500",
+        "company":"Aci Limited",
+        "img":"https://i.ibb.co/6RJ1crb/anaflex-5003-1631426712690.png",
+        "price": "8.61"
+    },
+    {
+        "id":10,
+        "name":"Ace 500",
+        "company":"Square Pharmaceuticals Ltd.",
+        "img":"https://i.ibb.co/gwfzVSF/ace-500-1631364310354.png",
+        "price": "0.76"
+    },
+    {
+        "id":11,
+        "name":"Losectil 20",
+        "company":"SK+F",
+        "img":"https://i.ibb.co/QdG1q33/4d606edc133a-2019-07-06-122647070549losectil-20-mg-box-of-100-cacules-100-box-1629778805439.png",
+        "price": "4.75"
+    },
+    {
+        "id":12,
+        "name":"Moxaclav 625",
+        "company":"Square Pharmaceuticals Ltd.",
+        "img":"https://i.ibb.co/NS1dBCj/2240-removebg-preview1-1630140926052.png",
+        "price": "30.40"
+    }
+]
