@@ -2,7 +2,7 @@ import React from 'react';
 import './Medicine.css'
 
 const Medicine = (props) => {
-    const { name, img, company, price } = props.medicine;
+    const { name, img, company, price, id } = props.medicine;
     return (
         <div className="medicine">
             <img className="img-fluid" src={img} alt="" />

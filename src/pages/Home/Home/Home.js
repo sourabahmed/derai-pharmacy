@@ -6,8 +6,7 @@ import Medicines from '../Medicines/Medicines';
 
 const Home = () => {
     return (
-        <div>
-            <Header></Header>
+        <div>            
             <Banner></Banner>
             <Medicines></Medicines>
             <Footer></Footer>
