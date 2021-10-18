@@ -13,7 +13,7 @@ const Medicines = () => {
     return (
         <div>
             <h3 className="text-center pt-4">Medicines</h3>
-            <div className="medicines container mt-5 pb-5">
+            <div className="medicines container mt-sm-2 mt-lg-4 pb-5">
             {
                 medicines?.map(medicine => <Medicine
                 key={medicine.id}

@@ -2,7 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './context/AuthProvider';
+import Covid from './pages/Covid/Covid';
 import Header from './pages/Home/Header/Header';
+import Footer from './pages/Home/Footer/Footer'
 import Home from './pages/Home/Home/Home';
 import Login from './pages/Login/Login';
 import MedicneDetails from './pages/MedicineDetails/MedicneDetails';
@@ -25,6 +27,9 @@ function App() {
             <Route exact path="/login">
               <Login></Login>
             </Route>
+            <Route exact path="/covid">
+              <Covid></Covid>
+            </Route>
             <PrivateRoute exact path="/home/:detailId">
               <MedicneDetails></MedicneDetails>
             </PrivateRoute>
@@ -33,6 +38,7 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </Router>
       </AuthProvider>
     </div>

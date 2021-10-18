@@ -15,7 +15,6 @@ const useFirebse = () => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
-                console.log(user);
                 setUser(user);
                 verifyEmail();
             })
@@ -35,8 +34,7 @@ const useFirebse = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
-                console.log(user);
-                setUser(result.user)
+                setUser(user)
             })
             .catch((error) => {
                 setError(error.message);

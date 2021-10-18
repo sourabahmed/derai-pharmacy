@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Form , Button} from 'react-bootstrap';
 import useAuth from '../../hooks/useAuth';
-import useFirebse from '../../hooks/useFirebase';
+// import useFirebse from '../../hooks/useFirebase';
 
 
 const Login = () => {
@@ -58,7 +58,7 @@ const Login = () => {
                     {isLogin? 'Login': 'Register'}
                 </Button>
                 <Button onClick={googleSignIn} className="mx-3"  variant="primary" type="submit">
-                    Google signIn
+                    Google SignIn
                 </Button>
             </Form>
         </div>
