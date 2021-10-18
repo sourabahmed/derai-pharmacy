@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "img":"https://i.ibb.co/SvVRgTx/untitled-1-1633352546495.png",
+        "name":"Neocare Medium 4pcs",
+        "price":"120.00",
+        "catagory":"Diapar",
+        "company":"Incepta Hygiene Ltd"
+    },
+    {
+        "id":1,
+        "img":"https://i.ibb.co/gJ2k1pD/abc-1633354102348.png",
+        "name":"Bashundhara Diapant",
+        "price":"140.00",
+        "catagory":"Diaper",
+        "company":"Bashudhara"
+    },
+    {
+        "id":1,
+        "img":"https://i.ibb.co/gJ2k1pD/abc-1633354102348.png",
+        "name":"Neocare Baby Wipes 80psc",
+        "price":"170.00",
+        "catagory":"Baby Wipes",
+        "company":"Incepta Hygiene Ltd"
+    },
+    {
+        "id":1,
+        "img":"https://i.ibb.co/yWXtBHV/lactogen-1-tin-400-gm-1633351779295.png",
+        "name":"Lactogen 1-Tin 400gm",
+        "price":"630.00",
+        "catagory":"Milk powder",
+        "company":"Nestle"
+    }
+]

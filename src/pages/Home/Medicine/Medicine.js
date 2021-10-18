@@ -12,7 +12,7 @@ const Medicine = (props) => {
                 <h5>{name}</h5>
                 <a href="/"><em>{company}</em></a>
                 <h5 className="price"><span>৳</span>{price}</h5>
-                <Link className="text-dark" to={url}>Details</Link>
+                <button className="btn btn-danger"><Link className="text-decoration-none text-white" to={url}>Detalil</Link></button>
             </div>
         </div>
     );

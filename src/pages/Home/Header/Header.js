@@ -6,7 +6,7 @@ import useAuth from '../../../hooks/useAuth';
 const Header = () => {
     const{user, logOut} = useAuth();
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
             <Container>
                 <Navbar.Brand href="#home">Derai-Pharmacy</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -17,7 +17,8 @@ const Header = () => {
                     </Nav>
                     <Nav>
                         {
-                            user.email?<Nav.Link onClick={logOut}>Logout</Nav.Link>:<Nav.Link href="/login">Login</Nav.Link>
+                            user.email?<button onClick={logOut} className="btn btn-danger">Logout</button>:
+                            <button className="btn btn-danger"><Link className="text-decoration-none text-white" to="/login">Login</Link></button>
                         }
                     </Nav>
                 </Navbar.Collapse>
