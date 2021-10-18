@@ -6,8 +6,8 @@ initializeAuthetication()
 const useFirebse = () => {
     const [user, setUser] = useState([]);
     const [error, setError] = useState("");
-    console.log(user);
-    console.log(error);
+    // console.log(user);
+    // console.log(error);
 
     const auth = getAuth();
     

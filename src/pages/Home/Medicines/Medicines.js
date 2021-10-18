@@ -4,7 +4,7 @@ import './Medicines.css'
 
 const Medicines = () => {
     const [medicines, setMedicines] = useState();
-    console.log(medicines);
+    //console.log(medicines);
     useEffect(() => {
         fetch('./medicine.json')
         .then(res => res.json())
