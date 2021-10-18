@@ -7,6 +7,7 @@ import Home from './pages/Home/Home/Home';
 import Login from './pages/Login/Login';
 import MedicneDetails from './pages/MedicineDetails/MedicneDetails';
 import NotFound from './pages/NotFound/NotFound'
+import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -24,9 +25,9 @@ function App() {
             <Route exact path="/login">
               <Login></Login>
             </Route>
-            <Route exact path="/home/:detailId">
+            <PrivateRoute exact path="/home/:detailId">
               <MedicneDetails></MedicneDetails>
-            </Route>
+            </PrivateRoute>
 
             <Route exact path="*">
               <NotFound></NotFound>
