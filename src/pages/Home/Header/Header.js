@@ -12,9 +12,9 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link><Link to="/home">Home</Link></Nav.Link>
-                        <Nav.Link><Link to="/covid">Covid-19</Link></Nav.Link>
-                        <Nav.Link><Link to="/doctor">Online-Doctor</Link></Nav.Link>
+                        <Nav.Link><Link className="text-decoration-none text-dark" to="/home">Home</Link></Nav.Link>
+                        <Nav.Link><Link className="text-decoration-none text-dark" to="/covid">Covid-19</Link></Nav.Link>
+                        <Nav.Link><Link className="text-decoration-none text-dark" to="/doctor">Online-Doctor</Link></Nav.Link>
                     </Nav>
                     <Nav>
                         {

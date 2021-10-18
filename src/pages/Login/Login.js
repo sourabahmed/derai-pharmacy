@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Form , Button} from 'react-bootstrap';
 import useAuth from '../../hooks/useAuth';
+import './Login.css'
 // import useFirebse from '../../hooks/useFirebase';
 
 
@@ -36,7 +37,7 @@ const Login = () => {
         setPassword(e.target.value);
     };
     return (
-        <div className="p-5 m-5 w-50 mx-auto">
+        <div className="p-5 m-5 width mx-auto">
             <h1>Please {isLogin? 'Login': 'Register'}</h1>
             <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
