@@ -4,83 +4,95 @@
         "name":"Seclo 20",
         "company":"Square Pharmaceuticals Ltd.",
         "img":"https://i.ibb.co/s5pzcy8/whatsapp-image-2021-08-28-at-111255-am-removebg-preview-1630128526048.png",
-        "price": "5.70"
+        "price": "5.70",
+        "detail":"Omeprazole, a substituted benzimidazole, is an inhibitor of gastric acid secretion. It inhibits gastric acid secretion by blocking hydrogen-potassium-adenosine triphosphatase (H+/K+ ATPase) enzyme system in the gastric parietal cell. After oral administration, the onset of the antisecretory effect occurs within one hour, with the maximum effect occurring within two hours and inhibition of secretion lasts up to 72 hours. When the drug is discontinued, secretory activity returns gradually, over 3 to 5 days."
     },
     {
         "id":2,
         "name":"Febus 40",
         "company":"Aci Limited",
         "img":"https://i.ibb.co/8m5mXfm/untitled-6-1631418761757.png",
-        "price": "11.44"
+        "price": "11.44",
+        "detail":"Febuxostat is a non-purine, selective xanthine oxidase (XO) inhibitor. It decreases serum uric acid level by inhibiting xanthine oxidase, which is responsible for uric acid production. Xanthine oxidase breaks down hypoxanthine to xanthine and thus to uric acid. Febuxostat is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations."
     },
     {
         "id":3,
         "name":"Adegra 100",
         "company":"Aci Limited",
         "img":"https://i.ibb.co/bbznKfs/untitled-1-1632982965494.png",
-        "price": "47.64"
+        "price": "47.64",
+        "detail":"Sildenafil is a selective inhibitor of cyclic Guanosine Monophosphate (cGMP)-specific phosphodiesterase type 5 (PDE5) used for treatment of erectile dysfunction. Danafil (Sildenafil) enhances the effect of nitric oxide (NO) by inhibiting phosphodiesterase type 5 (PDE5), which is responsible for degradation of cGMP in the corpus cavernosum that results in smooth muscle relaxation and inflow of blood to the corpus cavernosum."
     },
     {
         "id":4,
         "name":"Sergel 20",
         "company":"Healthcare Pharmaceuticals.",
         "img":"https://i.ibb.co/fpXGNGD/sergel-20-mg-1631528299689.png",
-        "price": "6.65"
+        "price": "6.65",
+        "detail":"Esomeprazole capsules should be taken at least one hour before meals. For patients who have difficulty swallowing capsules, one tablespoon of applesauce can be added to an empty bowl and the Esomeprazole capsules can be opened, and the pellets inside the capsule carefully emptied onto the applesauce. The pellets should be mixed with the applesauce and then swallowed immediately."
     },
     {
         "id":5,
         "name":"Napa Extra",
         "company":"Beximco Pharmaceuticals Ltd.",
         "img":"https://i.ibb.co/vXyy1DR/napa-extra-1630001325835-removebg-preview-1630562777966.png",
-        "price": "2.38"
+        "price": "2.38",
+        "detail":"This is a combination of Paracetamol and Caffeine. Paracetamol has analgesic and antipyretic properties with weak anti-inflammatory activity. Caffeine is an alkaloid which is a theophylline-like xanthine derivative. By intermolecular association with Paracetamol, Caffeine increases the solubility and transmembrane permeation of Paracetamol. In addition, Caffeine increases the pain threshold and tolerance of pain"
     },
     {
         "id":6,
         "name":"Fluclox 500",
         "company":"Aci Limited",
         "img":"https://i.ibb.co/n6z5Nby/fluclox-500-1631442367478.png",
-        "price": "10.07"
+        "price": "10.07",
+        "detail":"Flucloxacillin is active against Gram-positive organisms including penicillinase producing strains. It has little activity against Gram-negative bacilli. Flucloxacillin acts by inhibiting the formation of cell wall of bacteria. Flucloxacillin is isoxazolyl penicillin which combined the properties of resistance to hydrolysis by penicillinase, gastric acid stability and activity against gram-positive bacteria. "
     },
     {
         "id":7,
         "name":"Brodil 400",
         "company":"Aci Limited",
         "img":"https://i.ibb.co/R9CpQ5z/brodil-4-1631604326642.png",
-        "price": "0.44"
+        "price": "0.44",
+        "detail":"Salbutamol is a synthetic sympathomimetic agent with predominant beta-2 adrenergic activity. Salbutamol produces bronchodilatation through stimulation of beta-2-adrenergic receptors in bronchial smooth muscles, thereby causing relaxation of bronchial muscle fibers. This action is manifested by an improvement in pulmonary function as demonstrated by spirometric measurements."
     },
     {
         "id":8,
         "name":"Azyth 500",
         "company":"Sandoz Bangladesh Limited.",
         "img":"https://i.ibb.co/kqfxpGB/azyth-500-1629804200698.png",
-        "price": "52.73"
+        "price": "52.73",
+        "detail":"Azithromycin is indicated for infections (caused by susceptible organisms) in lower respiratory tract infections including bronchitis and pneumonia, in upper respiratory tract infections including sinusitis and pharyngitis/tonsillitis, in otitis media, and in skin and soft tissue infections. In sexually transmitted diseases in men and women, Azithromycin is indicated in the treatment of non-gonococcal"
     },
     {
         "id":9,
         "name":"Anaflex 500",
         "company":"Aci Limited",
         "img":"https://i.ibb.co/6RJ1crb/anaflex-5003-1631426712690.png",
-        "price": "8.61"
+        "price": "8.61",
+        "detail":"Naproxen is a non steroidal anti-inflammatory drug (NSAID) with anti-inflammatory, analgesic & antipyretic properties. It is rapidly absorbed from the gastrointestinal tract and achieves 95% bioavailability.Naproxen is indicated for the relief of sign and symptoms of rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, juvenile arthritis, tendonitis, bursitis & acute gout. It is also indicated for the management."
     },
     {
         "id":10,
         "name":"Ace 500",
         "company":"Square Pharmaceuticals Ltd.",
         "img":"https://i.ibb.co/gwfzVSF/ace-500-1631364310354.png",
-        "price": "0.76"
+        "price": "0.76",
+        "detail":"Paracetamol has analgesic and antipyretic properties with weak anti-inflammatory activity. Paracetamol (Acetaminophen) is thought to act primarily in the CNS, increasing the pain threshold by inhibiting both isoforms of cyclooxygenase, COX-1, COX-2, and COX-3 enzymes involved in prostaglandin (PG) synthesis. Paracetamol is a para aminophenol derivative, has analgesic and antipyretic properties"
     },
     {
         "id":11,
         "name":"Losectil 20",
         "company":"SK+F",
         "img":"https://i.ibb.co/QdG1q33/4d606edc133a-2019-07-06-122647070549losectil-20-mg-box-of-100-cacules-100-box-1629778805439.png",
-        "price": "4.75"
+        "price": "4.75",
+        "detail":"Omeprazole, a substituted benzimidazole, is an inhibitor of gastric acid secretion. It inhibits gastric acid secretion by blocking hydrogen-potassium-adenosine triphosphatase (H+/K+ ATPase) enzyme system in the gastric parietal cell. After oral administration, the onset of the antisecretory effect occurs within one hour, with the maximum effect occurring within two hours and inhibition of secretion"
     },
     {
         "id":12,
         "name":"Moxaclav 625",
         "company":"Square Pharmaceuticals Ltd.",
         "img":"https://i.ibb.co/NS1dBCj/2240-removebg-preview1-1630140926052.png",
-        "price": "30.40"
+        "price": "30.40",
+        "detail":"Co-amoxiclav is an antibacterial combination consisting of the antibiotic Amoxicillin and the (3-lactamase inhibitor Clavulanic Acid. Amoxicillin has a broad spectrum of bactericidal activity against many Gram-positive & Gram-negative microorganisms but it is susceptible to degradation by (3-lactamases and therefore the spectrum of activity does not include microorganisms"
     }
 ]

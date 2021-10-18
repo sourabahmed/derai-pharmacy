@@ -1,14 +1,16 @@
 
 import React, { useState } from 'react';
 import { Form , Button} from 'react-bootstrap';
-import useFirebse from '../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
+import useFirebse from '../../hooks/useFirebase';
+
 
 const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [isLogin, setIsLogin] = useState(false);
 
-    const {createUser, loginUser, signInwithGoogle} = useFirebse();
+    const {createUser, loginUser, signInwithGoogle} = useAuth();
 
     const toggleLogin = e => {
         setIsLogin(e.target.checked);

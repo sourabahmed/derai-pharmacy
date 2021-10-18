@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import MedicineDetail from '../MedicineDetail/MedicineDetail';
+import './MedicineDetails.css'
 
 const MedicneDetails = () => {
     const{detailId} = useParams();
@@ -13,10 +14,9 @@ const MedicneDetails = () => {
         .then(data => setDetails(data))
     },[])
     return (
-        <div>
-            <h1 className="p-5">{detailId}</h1> 
+        <div className="details">
             {
-                details.map(detail => detail.id == detailId? <MedicineDetail
+                details.map(detail => detail.id === parseInt(detailId)? <MedicineDetail
                 key={detail.id}
                 detail={detail}
                 ></MedicineDetail>:"")

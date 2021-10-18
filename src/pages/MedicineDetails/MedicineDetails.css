@@ -1,0 +1,9 @@
+.details{
+    padding: 100px;
+}
+
+@media only screen and (max-width:668px) {
+    .details{
+        padding: 10px;
+    }
+}

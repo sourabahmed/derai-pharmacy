@@ -1,0 +1,18 @@
+.detail{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detail:hover{
+    box-shadow:0 0 10px rgb(168, 165, 165);
+    transform: scale(1.01);
+}
+@media only screen and (max-width:668px) {
+    .detail{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
