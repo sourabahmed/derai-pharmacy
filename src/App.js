@@ -10,6 +10,7 @@ import Login from './pages/Login/Login';
 import MedicneDetails from './pages/MedicineDetails/MedicneDetails';
 import NotFound from './pages/NotFound/NotFound'
 import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
+import OnlineDoctor from './pages/OnlineDoctor/OnlineDoctor';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
             </Route>
             <Route exact path="/covid">
               <Covid></Covid>
+            </Route>
+            <Route exact path="/doctor">
+              <OnlineDoctor></OnlineDoctor>
             </Route>
             <PrivateRoute exact path="/home/:detailId">
               <MedicneDetails></MedicneDetails>
