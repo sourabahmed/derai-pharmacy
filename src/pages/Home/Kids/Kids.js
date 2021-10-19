@@ -11,7 +11,7 @@ const Kids = () => {
     },[])
     return (
         <div>
-            <h3 className="text-center mt-4">Kid's Item</h3>
+            <h3 className="text-center mt-4">Kid's Item <i class="fas fa-baby"></i></h3>
             <div className="kids">
                 {
                     kids.map(kid => <Kid

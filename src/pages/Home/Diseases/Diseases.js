@@ -11,7 +11,7 @@ const Diseases = () => {
     },[])
     return (
         <div>
-            <h3 className="text-center">Common Diseases</h3>
+            <h3 className="text-center">Common Diseases <i class="fas fa-disease"></i></h3>
             <div className="diseases">
                 {
                     diseases?.map(disease => <Disease
