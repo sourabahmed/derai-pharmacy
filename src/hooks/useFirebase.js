@@ -6,7 +6,7 @@ initializeAuthetication()
 const useFirebse = () => {
     const [user, setUser] = useState([]);
     const [error, setError] = useState("");
-     console.log(user);
+    const [isLoading, setIsLoading] = useState(true);
      console.log(error);
 
     const auth = getAuth();
@@ -69,16 +69,18 @@ const useFirebse = () => {
             else {
                 setUser({});
             }
+            setIsLoading(false);
         });
         return () => unsubscribe;
     }, [])
     return {
         user,
         error,
+        isLoading,
         createUser,
         loginUser,
         logOut,
-        signInwithGoogle
+        signInwithGoogle,
     }
 }
 export default useFirebse;

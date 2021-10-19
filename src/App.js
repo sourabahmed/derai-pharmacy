@@ -28,9 +28,9 @@ function App() {
             <Route exact path="/login">
               <Login></Login>
             </Route>
-            <Route exact path="/covid">
+            <PrivateRoute exact path="/covid">
               <Covid></Covid>
-            </Route>
+            </PrivateRoute>
             <PrivateRoute exact path="/doctor">
               <OnlineDoctor></OnlineDoctor>
             </PrivateRoute>

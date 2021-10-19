@@ -12,7 +12,6 @@ const Login = () => {
     const [isLogin, setIsLogin] = useState(false);
 
     const {createUser, loginUser, signInwithGoogle} = useAuth();
-
     const toggleLogin = e => {
         setIsLogin(e.target.checked);
     }
