@@ -5,3 +5,10 @@
     padding: 10px;
     background-color: white;
 }
+.kid a {
+    text-decoration: none;
+    color: red;
+}
+.kid h4{
+    color: rgb(190, 30, 2);
+}

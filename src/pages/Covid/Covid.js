@@ -11,17 +11,17 @@ const Covid = () => {
                 </div>
                 <div className="grid">
                     <div>
-                        <h2>1,565,827</h2>
-                        <h4>Confirmed</h4>
+                        <h2 className="text-danger">1,565,827</h2>
+                        <h4 className="text-secondary">Confirmed</h4>
                         <p>+339 new cases</p>
                     </div>
                     <div>
-                        <h2>1,528,371</h2>
-                        <h4>Recovered</h4>
+                        <h2 className="text-success">1,528,371</h2>
+                        <h4 className="text-secondary">Recovered</h4>
                     </div>
                     <div>
-                        <h2>27,778</h2>
-                        <h4>Deaths</h4>
+                        <h2 className="text-primary">27,778</h2>
+                        <h4 className="text-secondary">Deaths</h4>
                         <p>+10 new deaths</p>
                     </div>
                 </div>

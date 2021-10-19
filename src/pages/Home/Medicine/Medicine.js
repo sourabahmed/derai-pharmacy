@@ -7,7 +7,7 @@ const Medicine = (props) => {
     const url = `/home/${id}`
     return (
         <div className="medicine">
-            <img className="img-fluid" src={img} alt="" />
+            <img className="img" src={img} alt="" />
             <div className="text p-3">
                 <h5>{name}</h5>
                 <a href="/"><em>{company}</em></a>

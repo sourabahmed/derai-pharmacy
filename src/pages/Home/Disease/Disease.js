@@ -6,7 +6,7 @@ const Disease = (props) => {
     return (
         <div className="disease">
             <img className="img-fluid" src={img} alt="" />
-            <h4>{name}</h4>
+            <h4 className="p-3">{name}</h4>
         </div>
     );
 };
