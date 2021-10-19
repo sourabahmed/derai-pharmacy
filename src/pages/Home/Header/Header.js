@@ -17,6 +17,9 @@ const Header = () => {
                         <Nav.Link><Link className="text-decoration-none text-dark" to="/doctor">Online-Doctor</Link></Nav.Link>
                     </Nav>
                     <Nav>
+                        
+                            <h5>Sign in as: {user?.displayName}</h5>
+                        
                         {
                             user.email?<button onClick={logOut} className="btn btn-danger">Logout</button>:
                             <button className="btn btn-danger"><Link className="text-decoration-none text-white" to="/login">Login</Link></button>
